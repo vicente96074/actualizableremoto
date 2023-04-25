@@ -1,7 +1,7 @@
 {
     "app_name": "Mi aplicación",
     "current_version": "1.0.0",
-    "update_url": "https://github.com/vicente96074/actualizableremoto/releases/latest",
+    "update_url": "https://github.com/vicente96074/actualizableremoto/blob/main/releases/latest/",
     "update_file": "app.jar",
     "update_dir": "update",
     "check_for_updates_on_startup": true,
