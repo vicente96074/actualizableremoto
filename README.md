@@ -1,3 +1,3 @@
 App version 1.0.0
 -----------------
-* Pruebas
+* Actualizar direccion de version.txt
