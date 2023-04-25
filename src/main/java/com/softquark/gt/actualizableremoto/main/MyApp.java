@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 public class MyApp {
     
-    private final static String CURRENT_VERSION = "1.0.4";
+    private final static String CURRENT_VERSION = "1.0.5";
     public final static String DOWNLOAD_URL = "https://raw.githubusercontent.com/vicente96074/actualizableremoto/main/releases/download/v1.0.0/ActualizableRemoto.jar";
     
     public static void main(String[] args) {
@@ -67,6 +67,7 @@ class Ventana extends JFrame {
         
         panel.setBackground(new Color(60, 63, 65));
         
+        jLabel.setForeground(Color.WHITE);
         jLabel.setText(estado);
         jLabel.setHorizontalTextPosition(0);
         
