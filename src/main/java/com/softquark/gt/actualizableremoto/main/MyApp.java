@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 public class MyApp {
     
-    private final static String CURRENT_VERSION = "1.0.0";
+    private final static String CURRENT_VERSION = "1.0.2";
     
     public static void main(String[] args) {
         
@@ -59,6 +59,8 @@ class Ventana extends JFrame {
         panel = new JPanel();
         jLabel = new JLabel();
         jButton = new JButton();
+        
+        panel.setBackground(new Color(60, 63, 65));
         
         jLabel.setText(estado);
         jLabel.setHorizontalTextPosition(0);
